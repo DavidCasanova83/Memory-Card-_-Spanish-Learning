@@ -1,0 +1,92 @@
+* {
+  background: #f4c63d;
+}
+
+h1,
+h2 {
+  color: white;
+}
+h1 {
+  font-family: sans-serif;
+  text-align: center;
+  color: #770100;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+}
+
+h2 {
+  background: #ac6506;
+  font-size: 20px;
+  padding: 5%;
+  margin: 5%;
+  border-radius: 10px;
+}
+p {
+  font-size: 20px;
+  font-weight: bold;
+  background: transparent;
+}
+
+.item1 {
+  flex-grow: 3;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/9/9a/Flag_of_Spain.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 10px;
+  border-radius: 10px;
+}
+.item2 {
+  flex-grow: 3;
+  background: #cb0c0b;
+  margin: 10px;
+  border-radius: 10px;
+}
+.item3 {
+  flex-grow: 3;
+  background: black;
+  margin: 10px;
+  border-radius: 10px;
+}
+.content {
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: stretch;
+}
+
+#espagnol {
+  background: #ffc500;
+  margin: 20px;
+  padding: 10px;
+  flex-grow: 1;
+  border: solid;
+  border-radius: 5px;
+}
+#francais {
+  margin: 20px;
+  padding: 10px;
+  flex-grow: 1;
+  border: solid;
+  border-radius: 5px;
+  background: #cb0c0b;
+}
+#exemple {
+  margin: 20px;
+  padding: 10px;
+  flex-grow: 1;
+  border: solid white;
+  border-radius: 5px;
+  background: black;
+}
+#words {
+  border-radius: 5px;
+  border: solid 1px black;
+  background: #f4c63d;
+  flex-direction: column;
+  padding: 5px;
+}
